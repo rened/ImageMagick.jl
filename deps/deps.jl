@@ -9,7 +9,7 @@ macro checked_lib(libname, path)
 end
 
 # Load dependencies
-@checked_lib libwand "/usr/lib/x86_64-linux-gnu/libMagickWand-6.Q16.so.2"
+@checked_lib libwand "libMagickWand-6.Q16.so"
 
 # Load-hooks
 function init_deps()
