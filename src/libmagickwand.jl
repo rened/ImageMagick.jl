@@ -31,7 +31,7 @@ isinstantiated() = ccall((:IsMagickWandInstantiated, libwand), Cint, ()) == 1
 
 
 function __init__()
-    check_deps()
+    # check_deps()
     magickgenesis()
 end
 
